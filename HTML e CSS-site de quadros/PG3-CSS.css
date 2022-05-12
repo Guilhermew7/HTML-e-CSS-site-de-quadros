@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+body {
+    background-image: url(fundo.jpg);
+    background-size: cover;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    color:rgb(255, 255, 255);
+    line-height: 1.6em;
+}
+.container {
+    display: flex
+}
+.container div {
+    border: 1px rgb(255, 255, 255) solid;
+    padding: 10px;
+}
+.text {
+    border: 1px solid rgb(255, 255, 255); 
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 75px;
+   }
+
+.container img {
+    height: 200px;
+    width: 200px;
+    padding-left: 50px;
+}
+
+a:hover{
+    background-color: rgb(4, 0, 255);
+}
